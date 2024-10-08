@@ -1,0 +1,72 @@
+header {
+    background-image: url(./images/afbeeldingen/thumbnail.jpeg);
+    background-position: center center;
+}
+
+header img {
+    height: 100%;
+    width: 100%;
+    
+}
+
+body {
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+strong {
+    color: #007236;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2em;
+}
+
+a {
+    color: white;
+    transition: 0,2s;
+}
+
+a:hover {
+    color: #2039FF;
+}
+
+main section {
+    display: flex;
+    justify-content: space-between;
+   padding: 2em;
+}
+
+footer img {
+height: 100%;
+width: 100%;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+main img {
+    width: 100%;
+}
+
+div {
+    margin: 2em;
+}
+
+main {
+    margin: 2em;
+}
+
+button {
+    background-color: #007236;
+    border: white 1px solid;
+}
